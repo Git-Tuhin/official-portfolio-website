@@ -82,7 +82,7 @@
     #paragraph{
         display:flex;
         flex-wrap: wrap;
-        height:160vw;
+/*         height:160vw; */
         width:84vw;
         font-size: 5vw;
         position: absolute;
