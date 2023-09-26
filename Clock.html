@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="time.css">
+    <title>Document</title>
+    <script>
+        let a;
+        let date
+        let time;
+        setInterval(() => {
+        a = new Date();
+        time = String(a.getHours()).padStart(2,"0") + ":" + String(a.getMinutes()).padStart(2,"0") + ":" + String(a.getSeconds()).padStart(2,"0");
+        date = a.toLocaleDateString();
+        document.getElementById("text").innerHTML = time;
+        document.getElementById("cal").innerHTML = date;
+        }, 1000);
+       
+    </script>
+</head>
+<body>
+    <div id="message">I CAN SHOW YOU THE TIME</div>
+    <div id="clock">
+        <p id="text"></p>
+        <p id="cal"></p>
+    </div>
+    <div id="d1" class="decor"></div>
+    <div id="d2" class="decor"></div>
+    
+   
+</body>
+</html>

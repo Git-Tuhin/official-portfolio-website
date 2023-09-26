@@ -1,0 +1,60 @@
+#message{
+    background-color: rgba(68, 68, 229, 0.888);
+    text-align: center;
+    height:2em;
+    width:25em;
+    color: rgb(248, 186, 94);
+    border:0.3em solid black;
+    box-shadow: 3em 0.5em 5em 0.5em rgb(17, 255, 223);
+    padding-top: 1em;
+    font-size: 1.5em;
+    border-radius: 0.5em;
+    position: relative;
+    left:11em;
+}
+#clock{
+    height: 15em;
+    width:30em;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    left:19em;
+    top:5em;
+    border:1em solid rgb(255, 0, 0);
+    border-radius: 1em;
+    box-shadow: 0.5em -0.5em  rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+#text{
+    position:relative;
+    bottom:0.4em;
+    font-size: 6em;
+    color:whitesmoke;
+}
+#cal{
+    color:aliceblue;
+    position: absolute;
+    bottom:0.05em;
+    left:5.5em;
+    font-size: 2em;
+}
+.decor{
+    height:2em;
+    width:3.5em;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+}
+#d1{
+    left:25em;
+    top:5em;
+    box-shadow: 0.5em -0.5em  rgb(0, 0, 0);
+    z-index: -1;
+    border-radius: 0 0 0.3em 0.3em;
+}
+#d2{
+    left:41em;
+    top:3em;
+    box-shadow: 0.5em -0.5em  rgb(0, 0, 0);
+    z-index: -1;
+    border-radius: 0 0 0.3em 0.3em;
+}
